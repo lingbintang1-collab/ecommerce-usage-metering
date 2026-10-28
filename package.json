@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce-usage-metering",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/order_meter.ts",
+    "test": "node --experimental-strip-types src/order_meter.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.5.4", "@types/node": "^22.0.0" }
+}
